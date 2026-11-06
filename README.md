@@ -2,6 +2,9 @@
 
 Static website for Spearheaded (private client planning, Toronto). Hosted on Netlify; every push to `main` publishes the site.
 
+- Test address: https://spearheaded.netlify.app (team login required until launch)
+- Live address: https://spearheaded.ca (after launch)
+
 ## Structure
 
 - `src/pages/` — page bodies (one file per page, with title/description at the top)
