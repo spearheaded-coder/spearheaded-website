@@ -1,0 +1,62 @@
+<!--
+title: Private Consultation — Spearheaded
+description: Request a confidential, no-obligation consultation with Spearheaded — in person in the Greater Toronto Area or by video.
+path: /consultation
+active: consultation
+-->
+<section class="dark page-hero" aria-labelledby="page-title">
+<div class="wrap rise">
+<p class="eyebrow">Private consultation</p>
+<h1 class="h-page" id="page-title">Begin with a private <em>conversation.</em></h1>
+<p class="lead">Forty-five minutes, in person or by video. Confidential, and without obligation.</p>
+</div>
+</section>
+
+<section class="section bone">
+<div class="wrap grid-2">
+<div class="stack">
+<p class="eyebrow">What to expect</p>
+<ol class="expect">
+<li><div class="stack-sm"><h2 class="caps-title">Tell us a little about you</h2><p class="body-muted">Use the form, or call [PHONE]. Everything you share is kept confidential.</p></div></li>
+<li><div class="stack-sm"><h2 class="caps-title">A first conversation</h2><p class="body-muted">About your structure, your family and what you want your wealth to do. There is nothing to prepare.</p></div></li>
+<li><div class="stack-sm"><h2 class="caps-title">A written view</h2><p class="body-muted">If there is a fit, we follow with a written summary of what we heard, and where we see risks and opportunities.</p></div></li>
+</ol>
+</div>
+
+<form class="form" name="consultation" method="POST" action="/thank-you.html"data-netlify="true" netlify-honeypot="company-website" aria-describedby="form-note">
+<input type="hidden" name="form-name" value="consultation">
+<p class="hidden-field" aria-hidden="true"><label>Leave this field empty <input name="company-website" tabindex="-1" autocomplete="off"></label></p>
+<div class="form-row">
+<div class="field"><label for="first-name">First name</label><input id="first-name" name="first-name" autocomplete="given-name" required></div>
+<div class="field"><label for="last-name">Last name</label><input id="last-name" name="last-name" autocomplete="family-name" required></div>
+</div>
+<div class="form-row">
+<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="phone">Phone <span class="optional">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+</div>
+<div class="field">
+<label for="profile">Which best describes you?</label>
+<select id="profile" name="profile" required>
+<option value="">Please choose</option>
+<option>Incorporated physician or professional</option>
+<option>Business owner</option>
+<option>Family or individual</option>
+<option>Other</option>
+</select>
+</div>
+<fieldset class="field">
+<legend>Preferred meeting</legend>
+<div class="choices">
+<label class="choice"><input type="radio" name="meeting" value="In person" checked> In person</label>
+<label class="choice"><input type="radio" name="meeting" value="Video"> Video</label>
+<label class="choice"><input type="radio" name="meeting" value="Phone"> Phone</label>
+</div>
+</fieldset>
+<div class="field"><label for="message">Anything you would like us to know <span class="optional">(optional)</span></label><textarea id="message" name="message"></textarea></div>
+<label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I agree that Spearheaded may contact me about this request. See our <a href="privacy.html">Privacy Policy</a>.</span></label>
+<p class="body-muted" id="form-note" style="font-size: 14px">Please do not include account numbers or health details here; we will discuss anything sensitive in person.</p>
+<button class="btn btn-gold" type="submit">Request a consultation</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+</div>
+</section>
